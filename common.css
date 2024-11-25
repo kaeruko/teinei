@@ -46,10 +46,10 @@ img {
 	display: flex;
 }
 @media screen and (max-width:768px) {
-	.anchor {
+	/* .anchor {
 		margin-top: -54px;
 		padding-top: 54px;
-	}
+	} */
 	.tel a, .mail a {
 		pointer-events: auto;
 	}
@@ -126,7 +126,7 @@ img {
 		font-size: 16px;
 	}
 	#mainImage .img{
-		background-image: url(/factorytour/img/main_sp.jpg);
+		background-image: url(./main_sp.jpg);
 		min-height: 365px;
 	}
 	#mainImage video{
@@ -693,6 +693,7 @@ guide
 	}
 	#guide #detail_table > dl > dd{
 		padding: 15px 15px 20px;
+		margin-inline-start: 0px;
 	}
 	#guide #detail_table dd p,
 	#guide #detail_table > dl > dd dd p{
